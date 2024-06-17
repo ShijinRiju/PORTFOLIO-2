@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Shijin</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul>
+            <li class="logoname">shijin.</li>
+        </ul>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+        <ul>
+            <button>Hire Me</button>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <h1>Hi, I am <span>Shijin.</span></h1>
+        <p class="title">Full Stack Developer</p>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam unde eius quo fugit nam
+            assumenda recusandae adipisci sed qui aperiam eaque officiis, dolorum facilis perferendis, officia alias
+            excepturi quod!</p>
+        <img src="assets/images/shijin..png" alt="Logo">
+    </div>
+
+
+    <div class="about">
+        <h3 class="section" id="profile">Profile</h3>
+        <div class="aboutinfo">
+            <img src="assets/images/IMG_20240525_155402 background.png" alt="Profile">
+            <div class="info">
+                <h2>Who am I?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem consequatur facilis amet error
+                    vitae
+                    reiciendis quis, culpa odit ipsa temporibus inventore beatae ducimus, quod, suscipit consectetur vel
+                    tempore natus!</p>
+                <ul>
+                    <li>Name: <span>Shijin Riju</span></li>
+                    <li>Email: <span>shijinriju358@gmail.com</span></li>
+                    <li>Phone: <span>+91 99615 08109</span></li>
+                    <li>Address: <span>Arackal (H), Puthuppally P.O, Kottayam, Kerala, India</span></li>
+                </ul>
+                <button>DOWNLOAD CV</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skills">
+        <h3 class="section" id="skills">Skills</h3>
+        <div class="cards">
+            <div class="card" title="HTML"><i class='bx bxl-html5'></i></div>
+            <div class="card" title="CSS"><i class='bx bxl-css3'></i></div>
+            <div class="card" title="JAVASCRIPT"><i class='bx bxl-javascript'></i></div>
+            <div class="card" title="BOOTSTRAP"><i class='bx bxl-bootstrap'></i></div>
+            <div class="card" title="JQUERY"><i class='bx bxl-jquery'></i></div>
+            <div class="card" title="PYTHON"><i class='bx bxl-python'></i></div>
+            <div class="card" title="DJANGO"><i class='bx bxl-django'></i></div>
+            <div class="card" title="REACT"><i class='bx bxl-react'></i></div>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h3 class="section" id="projects">Projects</h3>
+        <div class="projectsection">
+            <div class="project">
+                <img src="assets/images/BMS.png" alt="Project 1">
+                <h3>Bank Management System using Python and Django</h3>
+                <button class="project1">Check out</button>
+            </div>
+            <div class="project">
+                <img src="assets/images/JOBS4U.png" alt="Project 2">
+                <h3>Jobs4U | Job Portal using Python and Django</h3>
+                <button class="project2">Check out</button>
+            </div>
+            <div class="project">
+                <img src="assets/images/events.png" alt="Project 3">
+                <h3>Event Management System using Python and Django</h3>
+                <button class="project3">Check out</button>
+            </div>
+            <div class="project">
+                <img src="assets/images/portfolio.png" alt="Project 4">
+                <h3>Portfolio Website using HTML, CSS, and JavaScript</h3>
+                <button class="project4">Check out</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h3 class="section" id="contact">Contact</h3>
+        <div class="contactsection">
+            <div class="address">
+                <ul>
+                    <li>Arackal (H), Puthuppally P.O</li>
+                    <li>Kottayam, Kerala, India - 686011</li>
+                    <li>Phone: <span>+91 99615 08109</span></li>
+                    <li>Email: <span>shijinriju358@gmail.com</span></li>
+                </ul>
+                <ul>
+                    <li><i class='bx bxl-instagram'></i></li>
+                    <li><i class='bx bxl-twitter'></i></li>
+                    <li><i class='bx bxl-linkedin'></i></li>
+                    <li><i class='bx bxl-facebook'></i></li>
+                    <li><i class='bx bxl-github'></i></li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <div class="input-form">
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="phone" id="phone" placeholder="Enter your phone number">
+                        <input type="text" name="subject" id="subject" placeholder="Enter the subject">
+                    </div>
+                    <div class="textarea">
+                        <textarea name="message" id="" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button id="send">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.main', {delay:300,origin:'left'})
+        ScrollReveal().reveal('.main img', {delay:300,origin:'bottom'})
+        ScrollReveal().reveal('.about img', {delay:300,origin:'left'})
+        ScrollReveal().reveal('.about .aboutinfo .info', {delay:300,origin:'right'})
+        ScrollReveal().reveal('.skills .cards .card', {delay:300,origin:'bottom',interval:200})
+        ScrollReveal().reveal('.projects .projectsection .project', {delay:300,origin:'bottom',interval:200})
+        ScrollReveal().reveal('.contact .contactsection .address', {delay:300,origin:'left'})
+        ScrollReveal().reveal('.contact .contactsection .address i', {delay:300,origin:'bottom',interval:200})
+        ScrollReveal().reveal('.contact .contactsection .contact-form', {delay:300,origin:'right'})
+
+
+    </script>
+</body>
+
+</html>
